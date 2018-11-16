@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="194.0" prefWidth="257.0" styleClass="background" stylesheets="@../background.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SmallHallPrices.RedController">
+   <children>
+      <Label layoutX="12.0" layoutY="94.0" prefHeight="27.0" prefWidth="102.0" text="VIP-ЛОЖА">
+         <styleClass>
+            <String fx:value="label-bright" />
+            <String fx:value="label-header" />
+         </styleClass>
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="12.0" layoutY="129.0" text="Цена билета: 1500 рублей">
+         <styleClass>
+            <String fx:value="label-bright" />
+            <String fx:value="label-header" />
+         </styleClass>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="38.0" text="Зал №1">
+         <styleClass>
+            <String fx:value="label-bright" />
+            <String fx:value="label-header" />
+         </styleClass>
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Button layoutX="116.0" layoutY="95.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" stylesheets="@../vip.css" />
+   </children>
+</AnchorPane>

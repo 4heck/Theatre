@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="542.0" prefWidth="688.0" styleClass="background" stylesheets="@../backgroundStat.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Popularity.StatisticsController">
+   <children>
+      <BarChart fx:id="PopularityChart" barGap="3.0" categoryGap="3.0" layoutX="14.0" layoutY="-14.0" legendVisible="false" prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@../backgroundStat.css" title="Популярность спектаклей" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <xAxis>
+          <CategoryAxis label="Спектакль" side="BOTTOM" stylesheets="@../backgroundStat.css" fx:id="x" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="y" label="Продано билетов" side="LEFT" stylesheets="@../backgroundStat.css" />
+        </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>

@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="691.0" prefWidth="774.0" styleClass="background" stylesheets="@../background.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SmallHall.SmallHallController">
+   <children>
+      <GridPane layoutX="23.0" layoutY="81.0" prefHeight="553.0" prefWidth="736.0" AnchorPane.bottomAnchor="-23.0" AnchorPane.leftAnchor="23.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="81.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+             
+             
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="0" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="0" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="1" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="1" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="1" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="2" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="2" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="2" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="3" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="3" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="3" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="4" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="4" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="4" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="5" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="5" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="5" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="6" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="6" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="6" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="7" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="7" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="7" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="8" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="8" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="8" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="9" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="9" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="9" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="10" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="10" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="10" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="11" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="11" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="11" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="12" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="12" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="12" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="13" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="13" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="13" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="14" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="14" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="14" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="15" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="15" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="15" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="16" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="16" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="16" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="17" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="17" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="17" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="18" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="18" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="18" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="19" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="19" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="19" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="20" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="20" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="20" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="21" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="21" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="21" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="22" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="22" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="22" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="23" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="23" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="23" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="24" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="24" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="24" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="25" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="25" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="25" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="26" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="26" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="27" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="27" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="27" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="28" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="28" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="28" GridPane.rowIndex="18" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="29" GridPane.rowIndex="16" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="29" GridPane.rowIndex="17" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="29" GridPane.rowIndex="18" />
+            
+            
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="3" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="4" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="6" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="5" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="6" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="7" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="8" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="9" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="10" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="11" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="12" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="13" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="14" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="15" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="16" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="17" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="18" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="19" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="20" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="21" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="22" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="23" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="24" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="25" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="26" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="3" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="4" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="6" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="5" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="6" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="7" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="8" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="9" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="10" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="11" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="12" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="13" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="14" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="15" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="16" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="17" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="18" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="19" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="20" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="21" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="22" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="23" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="24" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="25" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#pink" stylesheets="@../../pink.css" GridPane.columnIndex="26" GridPane.rowIndex="12" />
+            
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="3" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="4" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="6" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="5" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="6" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="7" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="8" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="9" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="10" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="11" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="12" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="13" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="14" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="15" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="16" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="17" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="18" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="19" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="20" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="21" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="22" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="23" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="24" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="25" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="26" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="6" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="5" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="6" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="7" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="8" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="9" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="10" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="11" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="12" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="13" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="14" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="15" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="16" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="17" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="18" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="19" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="20" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="21" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="22" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="23" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="24" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="25" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="26" GridPane.rowIndex="10" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="7" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="8" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="9" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="10" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="11" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="12" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="13" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="14" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="15" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="16" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="17" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="18" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="19" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="20" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="21" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="22" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="23" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="24" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="25" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#green" stylesheets="@../../green.css" GridPane.columnIndex="26" GridPane.rowIndex="9" />
+            
+            
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="10" GridPane.rowIndex="6" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="11" GridPane.rowIndex="6" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="12" GridPane.rowIndex="6" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="13" GridPane.rowIndex="6" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="16" GridPane.rowIndex="6" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="17" GridPane.rowIndex="6" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="18" GridPane.rowIndex="6" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="19" GridPane.rowIndex="6" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="20" GridPane.rowIndex="6" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="21" GridPane.rowIndex="6" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="22" GridPane.rowIndex="6" />            
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="23" GridPane.rowIndex="6" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="10" GridPane.rowIndex="5" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="11" GridPane.rowIndex="5" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="12" GridPane.rowIndex="5" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="13" GridPane.rowIndex="5" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="16" GridPane.rowIndex="5" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="17" GridPane.rowIndex="5" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="18" GridPane.rowIndex="5" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="19" GridPane.rowIndex="5" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="20" GridPane.rowIndex="5" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="21" GridPane.rowIndex="5" />
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="22" GridPane.rowIndex="5" />            
+            <Button mnemonicParsing="false" onAction="#yellow" stylesheets="@../../yellow.css" GridPane.columnIndex="23" GridPane.rowIndex="5" />
+            
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="10" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="11" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="12" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="13" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="16" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="17" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="18" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="19" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="20" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="21" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="22" GridPane.rowIndex="4" />            
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="23" GridPane.rowIndex="4" />
+            
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="10" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="11" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="12" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="13" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="16" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="17" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="18" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="19" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="20" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="21" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="22" GridPane.rowIndex="2" />            
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="23" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="10" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="11" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="12" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="13" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="16" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="17" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="18" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="19" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="20" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="21" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="22" GridPane.rowIndex="1" />            
+            <Button mnemonicParsing="false" onAction="#red" stylesheets="@../../red.css" GridPane.columnIndex="23" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#vip" prefHeight="25.0" prefWidth="35.0" stylesheets="@../../vip.css" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#vip" prefHeight="25.0" prefWidth="38.0" stylesheets="@../../vip.css" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#vip" prefHeight="25.0" prefWidth="36.0" stylesheets="@../../vip.css" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#vip" prefHeight="25.0" prefWidth="30.0" stylesheets="@../../vip.css" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <Button mnemonicParsing="false" onAction="#vip" prefHeight="25.0" prefWidth="31.0" stylesheets="@../../vip.css" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Button mnemonicParsing="false" onAction="#vip" prefHeight="25.0" prefWidth="38.0" stylesheets="@../../vip.css" GridPane.columnIndex="28" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#vip" prefHeight="25.0" prefWidth="28.0" stylesheets="@../../vip.css" GridPane.columnIndex="28" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#vip" prefHeight="25.0" prefWidth="36.0" stylesheets="@../../vip.css" GridPane.columnIndex="28" GridPane.rowIndex="7" />
+            <Button mnemonicParsing="false" onAction="#vip" prefHeight="25.0" prefWidth="26.0" stylesheets="@../../vip.css" GridPane.columnIndex="28" GridPane.rowIndex="8" />
+            <Button mnemonicParsing="false" onAction="#vip" prefHeight="25.0" prefWidth="33.0" stylesheets="@../../vip.css" GridPane.columnIndex="28" GridPane.rowIndex="12" />
+            <Button mnemonicParsing="false" onAction="#vip" prefHeight="25.0" prefWidth="35.0" stylesheets="@../../vip.css" GridPane.columnIndex="28" GridPane.rowIndex="13" />
+            <Label text="Л" GridPane.columnIndex="14" GridPane.rowIndex="15" />
+            <Label text="Б" GridPane.columnIndex="12" GridPane.rowIndex="15" />
+            <Label text="А" GridPane.columnIndex="13" GridPane.rowIndex="15" />
+            <Label text="К" GridPane.columnIndex="15" GridPane.rowIndex="15" />
+            <Label text="О" GridPane.columnIndex="16" GridPane.rowIndex="15" />
+            <Label text="Н" GridPane.columnIndex="17" GridPane.rowIndex="15" />
+            <Label text="А" GridPane.columnIndex="10" GridPane.rowIndex="8" />
+            <Label text="М" GridPane.columnIndex="11" GridPane.rowIndex="8" />
+            <Label text="Ф" GridPane.columnIndex="12" GridPane.rowIndex="8" />
+            <Label text="И" GridPane.columnIndex="13" GridPane.rowIndex="8" />
+            <Label text="Т" GridPane.columnIndex="14" GridPane.rowIndex="8" />
+            <Label text="Е" GridPane.columnIndex="15" GridPane.rowIndex="8" />
+            <Label text="А" GridPane.columnIndex="16" GridPane.rowIndex="8" />
+            <Label text="Т" GridPane.columnIndex="17" GridPane.rowIndex="8" />
+            <Label text="Р" GridPane.columnIndex="18" GridPane.rowIndex="8" />
+            <Label text="П" GridPane.columnIndex="12" />
+            <Label text="А" GridPane.columnIndex="13" />
+            <Label text="Р" GridPane.columnIndex="14" />
+            <Label text="Т" GridPane.columnIndex="15" />
+            <Label text="Е" GridPane.columnIndex="16" />
+            <Label text="Р" GridPane.columnIndex="17" />
+            <Label rotate="-90.0" text="P" GridPane.rowIndex="9" />
+            <Label rotate="-90.0" text="-" GridPane.rowIndex="8" />
+            <Label rotate="-90.0" text="Л" GridPane.rowIndex="7" />
+            <Label rotate="-90.0" text="О" GridPane.rowIndex="6" />
+            <Label rotate="-90.0" text="Ж" GridPane.rowIndex="5" />
+            <Label rotate="-90.0" text="И" GridPane.rowIndex="4" />
+            <Label rotate="-90.0" text="I" GridPane.rowIndex="10" />
+            <Label rotate="-90.0" text="V" GridPane.rowIndex="11" />
+            <Label rotate="90.0" text="И" GridPane.columnIndex="29" GridPane.rowIndex="11" />
+            <Label rotate="90.0" text="Ж" GridPane.columnIndex="29" GridPane.rowIndex="10" />
+            <Label rotate="90.0" text="О" GridPane.columnIndex="29" GridPane.rowIndex="9" />
+            <Label rotate="90.0" text="Л" GridPane.columnIndex="29" GridPane.rowIndex="8" />
+            <Label rotate="90.0" text="-" GridPane.columnIndex="29" GridPane.rowIndex="7" />
+            <Label rotate="90.0" text="P" GridPane.columnIndex="29" GridPane.rowIndex="6" />
+            <Label rotate="90.0" text="I" GridPane.columnIndex="29" GridPane.rowIndex="5" />
+            <Label prefHeight="17.0" prefWidth="7.0" rotate="90.0" text="V" GridPane.columnIndex="29" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="10" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="11" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="12" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="13" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="16" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="17" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="18" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="19" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="20" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="21" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="22" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#orange" stylesheets="@../../orange.css" GridPane.columnIndex="23" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#vip" prefHeight="25.0" prefWidth="35.0" stylesheets="@../../vip.css" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#blue" stylesheets="@../../blue.css" GridPane.columnIndex="26" GridPane.rowIndex="17" />
+         </children>
+      </GridPane>
+      <GridPane alignment="CENTER" gridLinesVisible="true" layoutX="166.0" layoutY="21.0" prefHeight="48.0" prefWidth="422.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label prefHeight="17.0" prefWidth="303.0" text="                                                          С Ц Е Н А" textAlignment="JUSTIFY" />
+         </children>
+         <effect>
+            <Blend mode="RED" />
+         </effect>
+      </GridPane>
+   </children>
+</AnchorPane>
